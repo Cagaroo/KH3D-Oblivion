@@ -1,0 +1,35 @@
+title: PC - Oblivion
+originalAuthor: Cagaroo
+description: A Keyblade imbued with dark power. Replaces Skull Noise for Sora and Riku.
+dependencies: 
+assets:
+- name: chara/wep/w_ri02/mig/0/bin/w_ri020.pmo
+  multi:
+  - name: chara/wep/w_so02/mig/0/bin/w_so020.pmo
+  - name: chara/wep/w_so02/mig/0/bin/w_so02s.pmo
+  - name: chara/wep/w_ri02/mig/0/bin/w_ri02s.pmo
+  method: copy
+  source:
+  - name: 3ds/chara_wep/128-w_ri020.pmo
+- name: chara/wep/w_ri02/mig/1/bin/w_ri021.pmo
+  multi:
+  - name: chara/wep/w_so02/mig/1/bin/w_so021.pmo
+  method: copy
+  source:
+  - name: 3ds/chara_wep/19-w_ri021.pmo
+- name: menu/jp/bin/it0201l.ctt
+  multi:
+  - name: menu/jp/bin/it0201.ctt
+  - name: menu/jp/bin/it0211l.ctt
+  - name: menu/jp/bin/it0211.ctt
+  method: copy
+  source:
+  - name: item/it0201.png
+- name: menu/jp/bin/it0201tl.ctt
+  multi:
+  - name: menu/jp/bin/it0201t.ctt
+  - name: menu/jp/bin/it0211tl.ctt
+  - name: menu/jp/bin/it0211t.ctt
+  method: copy
+  source:
+  - name: item/it0201t.png
